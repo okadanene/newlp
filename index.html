@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="理想のお部屋が見つかったら、お申込みです。トラベルエステートは仲介手数料0円。初期費用が他社様と比べて1ヶ月分程お安くなります。">
+    <title>仲介手数料無料で賃貸を探すなら</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@500&family=Noto+Sans+JP:wght@400;500;900&family=Zen+Kaku+Gothic+New:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $(".qa-list dd").hide();
+            $(".qa-list dl").on("click", function (e) {
+                $('dd', this).slideToggle('fast');
+                if ($(this).hasClass('open')) {
+                    $(this).removeClass('open');
+                } else {
+                    $(this).addClass('open');
+                }
+            });
+        });
+    </script>
+    <script>
+    $(document).ready(function () {
+        // 各質問の高さを取得し、最大の高さを求める
+        var maxHeight = 0;
+        $(".qa dt").each(function () {
+            var height = $(this).outerHeight();
+            if (height > maxHeight) {
+                maxHeight = height;
+            }
+        });
+
+        // 高さを微調整
+        var newHeight = maxHeight * 0.6; // 例: 現在の高さの80%
+        
+        // 各質問の高さを新しい高さに合わせる
+        $(".qa dt").css("height", newHeight + "px");
+    });
+    </script>
+    <div class="all">
+<!-- ヘッダー -->
+        <header>
+            <div class="header-all">
+                <h1 class="header-img">
+                    <a href="#">
+                        <img src="img/travel-logo.png" alt="travel-logo">
+                    </a>
+                </h1>
+                <nav class="header-nav">
+                    <ul>
+                        <li><a href="#section3">トラベルエステートの特徴</a></li>
+                        <li><a href="#section11">なぜ他社より安い？</a></li>
+                        <li><a href="#section12-content">お客様の声</a></li>
+                        <li><a href="#section14">よくあるご質問</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <nav class="sp-nav">
+                <ul>
+                    <li><a href="#section3">トラベルエステートの特徴</a></li>
+                    <li><a href="#section11">なぜ他社より安い？</a></li>
+                    <li><a href="#section12-content">お客様の声</a></li>
+                    <li><a href="#section14">よくあるご質問</a></li>
+                    <li class="close"><span>閉じる</span></li>
+                </ul>
+            </nav>
+            <div id="hamburger">
+                <div class="icon">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+        </header>
+
+<!-- ヘッダー -->
+
+<!-- セクション1ここから -->
+        <div class="section1">
+            <img src="img/topimg-phone.jpg" alt="top-img">
+        </div>
+<!-- セクション1ここまで -->
+        
+        <!-- ボタンここから -->
+        <div class="section1-inquiry">
+            <div class="line-btn">
+                <a href="https://liff.line.me/1656584077-QM1BDk4k/landing?follow=%40618fvcwy&amp;lp=ZLwgnA&amp;liff_id=1656584077-QM1BDk4k" class="btn">
+                    <div class="line-txt">
+                        <span class="free">無料</span>
+                        <span>LINEでお部屋探しプロに相談</span>
+                    </div>
+                </a>
+            </div>
+            <div class="tell-btn">
+                <a href="tel:08008080896" class="btn2">
+                    <p class="tell-text-top">お急ぎの方はお電話ください！</p>
+                    <p class="tell-text-number"><i class="bi bi-telephone-fill"></i> 080-0808-0896</p>
+                    <p class="tell-text-time">受付時間：10：00～19：00</p>
+                </a>
+            </div>
+        </div>
+        <!-- ボタンここから -->
+
+        <!-- セクション2ここから -->
+
+        <div class="section2">
+            <p class="section2-txt1">
+                どこの不動産会社も<br>
+                「取扱物件ほぼ同じ」知ってましたか？
+            </p>
+            <p class="section2-txt2">
+                不動産会社はどこも共通の業者専用サイトを<br>
+                利用しているため取扱物件の数はほとんど同じ。<br>
+                他社サイト物件もまとめてご紹介できます！
+            </p>
+            <div class="roll">
+                <img src="img/athome.png" alt="athome">
+                <img src="img/homes.png" alt="homes">
+                <img src="img/suumo.png" alt="suumo">
+                <img src="img/yahoo.png" alt="yahoo">
+            </div>
+            <p class="section2-txt3">
+                なので、賃貸の契約で損しないためには
+            </p>
+            <p class="section2-txt4">
+                サービス内容が良い＆明朗会計
+            </p>
+            <p class="section2-txt5">
+                の不動産会社を選ぶことが一番大事です。
+            </p>
+        </div>
+
+        <!-- セクション2ここまで -->
+
+        <!-- セクション3ここから -->
+
+        <div class="section3">
+            <div class="section3-top-img">
+                <div class="section3-left-img">
+                    <img src="img/question-woman.png" alt="question-woman">
+                </div>
+                <div class="section3-txt">
+                    <p class="section3-txt1">お部屋を探すとき</p>
+                    <span class="section3-txt2">こんな</span>
+                    <span class="section3-txt3">お悩み</span>
+                    <p class="section3-txt4">ありませんか？</p>
+                </div>
+                <div class="section3-right-img">
+                    <img src="img/question-man.png" alt="question-man">
+                </div>
+            </div>
+                <div class="section3-grid">
+                    <div class="section3-left">
+                        <div class="balloon1">
+                            <p>部屋探しのお悩み</p>
+                        </div>
+                        <ul class="section3-grid-left">
+                            <li>
+                                <span class="r-orange">初期費用</span>
+                                <span class="section3-grid-txt">が高くて
+                                <br>困ってる…</span>
+                            </li>
+                            <li>
+                                <span class="r-orange">希望の条件</span>
+                                <span class="section3-grid-txt">で物件が
+                                <br>見つからない…</span>
+                            </li>
+                            <li>
+                                <span class="section3-grid-txt">不動産屋の
+                                <span class="r-orange">店舗に
+                                <br>行く時間がない…</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="section3-right">
+                        <div class="balloon1">
+                            <p>不動産屋への不信感</p>
+                        </div>
+                        <ul class="section3-grid-right">
+                            <li>
+                                <span class="section3-grid-txt">メリット説明ばかりで</span>
+                                <br><span class="r-orange">信用できない…</span>
+                            </li>
+                            <li>
+                                <span class="r-orange">不要なオプション費用</span>
+                                <br><span class="section3-grid-txt">を払いたくない…</span>
+                            </li>
+                            <li>
+                                <span class="r-orange">おとり物件で</span>
+                                <span class="section3-grid-txt">時間を
+                                <br>無駄にしたくない…</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        </div>
+
+        <!-- セクション4ここから -->
+
+        <div class="section4">
+            <div class="balloon2">
+                <p>不動産屋の闇をぶっちゃけ</p>
+            </div>
+            <div class="section4-txt1">
+                <span class="section4-orange">物件によって<br>
+                不動産屋に入る「報酬」は違う</span><br>
+                <span class="section4-question">って知ってましたか？</span>
+            </div>
+            <img src="img/eximg.jpg" alt="eximg">
+            
+            <div class="section4-c1-title">
+                <span class="section4-c1">手数料が高い物件を決めるための<br>
+                自己利益しか考えない営業になりがち
+                </span>
+            </div>
+
+            <div class="section4-box1">
+                <h4 class="section4-box1-txt">だから…</h4>
+                <ul>
+                    <li>自社に入る報酬が高い物件ばかり紹介</li>
+                    <li>物件Bのデメリットを敢えて言わない</li>
+                    <li>物件Aは紹介をしない など</li>
+                </ul>
+            </div>
+            <div class="section4-box2">
+                <h4 class="section4-box2-txt">結果…</h4>
+                <ul>
+                    <li><span class="bold">お客様の本来の希望からはずれた物件</span><br>
+                    ばかり提案されて疲れる</li>
+                    <li>知らずに契約して住んでから<br>
+                    <span class="bold">デメリット</span>を知って後悔する…<br>
+                    など</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- セクション4ここまで -->
+
+        <!-- セクション5ここから -->
+
+        <div class="section5">
+            <div class="balloon3">
+                <p>なのでトラベルエステートは…</p>
+            </div>
+            <span class="section5-title">✨自社に入る報酬（手数料）を<br>
+            すべて公開しています！✨
+            </span>
+            <p class="section5-txt1">トラベルエステートは大家さんから手数料が入る物件は<br>
+            隠さずにお客様にお話しをした上で、手数料の金額に<br>
+            応じて仲介手数料を割引して還元しています。
+            </p>
+
+            <div class="section5-content1">
+                <p class="section5-content1-title">一般的な不動産の場合</p>
+                <span class="section5-ex1">家賃が10万円の場合</span>
+                <img src="img/3prople.png" alt="3people-img">
+                <p class="section5-content1-txt">
+                    一般的には、大家さんから手数料がもらえる物件でも、
+                入居者様には何も言わずに仲介手数料1ヵ月分を請求して
+                両方から手数料をもらうのが一般的となっています。
+                中には一部の物件のみ仲介手数料0.5ヵ月分（半額）にて
+                紹介している会社もいて、同じ物件でも不動産会社によって
+                仲介手数料の金額が大きく変わります。
+                </p>
+            </div>
+            
+            <div class="section5-content2">
+                <p class="section5-content2-title">トラベルエステートの場合</p>
+                <span class="section5-ex2">大家さんからの手数料が1ヵ月分の場合</span>
+                <img src="img/ex1.png" alt="ex1-img">
+                <div class="line"></div>
+                <span class="section5-ex3">大家さんからの手数料が0円の場合</span>
+                <img src="img/ex2.png" alt="ex2-img">
+            </div>
+        </div>
+<!-- セクション5ここまで -->
+
+<!-- セクション6ここから -->
+        <div class="section6">
+            <div class="balloon4">
+                <p>トラベルエステートなら！</p>
+            </div>
+            <p class="section6-txt1">どのくらい安くなるかというと…</p>
+            <p class="section6-ex1">例：家賃10万円の物件の場合</p>
+            <p class="section6-txt2">＼仲介手数料が0円！／</p>
+            <div class="section6-img1">
+            <img src="img/graph1.png" alt="graph1">
+            </div>
+            <span class="circle1">さらに！</span>
+            <p class="section6-txt3">＼その他費用も0円になります／</p>
+            <div class="section6-img1">
+            <img src="img/graph2.png" alt="graph2">
+            </div>
+            <p class="section6-txt4">
+                「仲介手数料0円と謳ってる会社はベルの費用を請求してくる…」とよく聞きますが、
+                トラベルエステートでは、
+                <span class="section6-txt5">礼金や不要なオプション料金等を</span><span class="section6-txt6">上乗せ請求は絶対にしません！</span><br>
+                また、管理会社が“事務手数料”などの名目で請求をしている場合は交渉も
+                いらしますのでお任せください！
+            </p>
+        </div>
+<!-- セクション6ここまで -->
+
+<!-- セクション7ここから -->
+
+        <div class="section7">
+            <div class="balloon5">
+                <p>さらに</p>
+            </div>
+            <span class="section7-txt1">対面相談</span><span class="section7-txt2">or</span><span class="section7-txt1">オンライン相談</span>
+            <p class="section7-txt3">が選べます！</p>
+            <div class="section7-content1">
+                <div class="section7-item">
+                    <h3>対面面談</h3>
+                    <img src="img/explain.jpg" alt="explain">
+                    <p class="section7-txt4">
+                        お客様に合わせて<br>
+                        対応します
+                    </p>
+                    <p class="section7-txt5">店舗へのご来店でご相談いただけます</p>
+                </div>
+                <div class="section7-item">
+                    <h3>オンライン相談</h3>
+                    <img src="img/online.jpg" alt="explain">
+                    <p class="section7-txt4">
+                        PC/スマホ<br>
+                        どちらでもOK！
+                    </p>
+                    <p class="section7-txt5">
+                        登録不要・テレビ電話での通話でご相談いただけます<br>
+                        例）ZOOM,LINE,Google Meet
+                    </p>
+                </div>
+            </div>
+            <span class="circle2">or</span>
+            <div class="triangle"></div>
+
+            <div class="section7-content2">
+                <h3>お部屋の内見</h3>
+                <div class="section7-item2">
+                    <figure class="image"><img src="img/naiken.jpg" alt="naiken"></figure>
+                    <div class="section7-item2-txt">
+                        <p class="section7-txt6">現地待ち合わせ集合</p>
+                        <p class="section7-txt7">
+                            内見対応エリア<br>
+                            大阪府/兵庫/京都/奈良<br>
+                            （要相談）
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section7-content-fin">
+                <p class="section7-txt8">
+                    何度も店舗に行かなくても、オンライン通話（ZOOMなど）で物件探しができます。
+                    対面希望の方はご来店（松屋町）頂く事も可能です。<br>
+                    内見は、物件の現地にてお待ち合わせか、店舗で一緒に物件をお探しして、その足で
+                    そのまま内見に一緒に行ったり、周辺環境を歩きながら確認することも可能◎
+                </p>
+                <p class="section7-txt9">※エリアによってはご内見不可となる為ご相談ください。</p>
+            </div>
+        </div>
+
+<!-- セクション7ここまで -->
+
+<!-- セクション8ここから -->
+
+        <div class="section8">
+            <div class="balloon6">
+                <p>従来の不動産屋と<br>ココが違う！</p>
+            </div>
+            <div class="section8-content">
+                <div class="section8-item">
+                <h3 class="section8-txt1">
+                    他社と違って<span class="section8-txt2">報酬を公開</span><br>
+                    しているサービスだからできること
+                </h3>
+                    <div class="section8-item-inner">
+                        <span class="section8-txt3">
+                            仲介手数料が
+                            <span class="section8-txt4">最大</span>
+                            <span class="section8-txt5">0</span>
+                            <span class="section8-txt4">円</span>
+                            で<br>契約できる
+                        </span>
+                        <img src="img/keiyaku.jpg" alt="keiyaku">
+                    </div>
+                    <p class="section8-explain">
+                        他社さんで「仲介手数料10万円必要」と言われても
+                        「トラベルエステートなら0円で契約」できます！
+                        私たちは、大家さんから手数料1ヶ月分入る物件について、
+                        お客様から仲介手数料を頂いておりません！
+                        ※一般的な相場としては契約する物件「家賃0.5～1ヶ月分」が
+                        仲介手数料として必要になります。
+                    </p>
+                    <div class="section8-item-inner">
+                        <span class="section8-txt3">
+                        <span class="section8-txt4">不動産屋しか見れない</span><br>
+                        サイト直接見て選べるので<br>無駄がない！</span>
+                        <img src="img/network.jpg" alt="network">
+                    </div>
+                    <p class="section8-explain">
+                        通常は不動産会社しか見る事のできない物件データベース
+                        （レインズ・atbb）を、一緒に見ながら選べるので
+                        「おとり物件」等も無く、「時間の短縮」+「物件探しの効率を良く」
+                        できます。しかも、「報酬を公開」しているので大家さんから手数料を
+                        もらえる物件だけ選ぶという事もでき、初期費用を最安クラスで契約できます！
+                    </p>
+                    <div class="section8-item-inner">
+                        <span class="section8-txt3">
+                        <span class="section8-txt4">利益優先の押売りない</span>
+                        ので<br>理想の物件が見つかる</span>
+                        <img src="img/teian.png" alt="teian">
+                    </div>
+                    <p class="section8-explain">
+                        トラベルエステートでは、報酬を公開しているからこそ言える
+                        “本音の物件選びアドバイス”にこそ価値があると思っています。
+                        報酬が高い物件を順番に紹介する等もないので、
+                        本当の意味でお客様に寄り添った提案ができる事が一番の強みです。
+                    </p>
+                    <span class="section8-orange">
+                        ✨適正な価格で契約でき、<br>
+                        部屋選びで失敗する事
+                    </span>
+                    <span class="section8-final">も減るので、<br></span>
+                    <span class="section8-orange">理想の物件</span>
+                    <span class="section8-final">に住むことができます！</span>
+                    <span class="section8-orange">✨</span>
+                </div>
+            </div>
+        </div>
+
+<!-- セクション8ここまで -->
+
+<!-- セクション9ここから -->
+
+        <div class="section9">
+            <div class="balloon7">
+                <p>私たちが対応します</p>
+            </div>
+            <h3>実力のある<br>エージェントのみ在籍</h3>
+            <div class="section9-staff">
+                <div class="staff">
+                    <img src="img/imabayashi.png" alt="imabayashi">
+                    <p class="katakana">イマバヤシ ジンペイ</p>
+                    <p class="name">今林 仁平</p>
+                    <span class="area">大阪エリア対応/30代</span>
+                </div>
+                <div class="staff">
+                    <img src="img/okada.png" alt="okada">
+                    <p class="katakana">オカダ ネネ</p>
+                    <p class="name">岡田 峰音</p>
+                    <span class="area">大阪エリア対応/30代</span>
+                </div>
+                <div class="staff">
+                    <img src="img/ogo.png" alt="ogo">
+                    <p class="katakana">オゴウ ノブヒト</p>
+                    <p class="name">小合 展仁</p>
+                    <span class="area">東京エリア対応/30代</span>
+                </div>
+            </div>
+        </div>
+<!-- セクション9ここまで -->
+
+<!-- セクション10ここから -->
+
+        <div class="section10">
+            <div class="section10-content">
+                <div class="balloon8">
+                    <p>物件が決まってる方</p>
+                </div>
+                <p class="section10-txt">
+                    仲介手数料が安くなるか判定します！<br>
+                    URLをコピーして物件をお送りください！
+                </p>
+                <img src="img/url.png" alt="url">
+                <div class="balloon8">
+                    <p>これから物件を探す方</p>
+                </div>
+                <p class="section10-txt">
+                    不動産業者しか見れないサイトを一緒に見ながら<br>
+                    仲介手数料0円で本音の物件紹介します！
+                </p>
+                <img src="img/taimen.jpg" alt="taimen">
+            </div>
+
+    <!-- ボタンここから -->
+
+            <div class="section10-inquiry">
+                <div class="line-btn2">
+                    <a href="https://liff.line.me/1656584077-QM1BDk4k/landing?follow=%40618fvcwy&amp;lp=ZLwgnA&amp;liff_id=1656584077-QM1BDk4k" class="btn">
+                        <p class="line-text-top">無料相談24時間受付中</p>
+                        <div class="line-txt2">
+                            <img src="img/LINE_APP_Android.png" alt="line"><span>まずはLINEで相談してみる！</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="tell-btn2">
+                    <a href="tel:08008080896" class="btn2">
+                        <p class="tell-text-number2"><i class="bi bi-telephone-fill"></i> お電話でのお問い合わせはこちら</p>
+                    </a>
+                </div>
+            </div>
+    <!-- ボタンここから -->
+            <p class="section10-txt2">
+                現状、多くのお客様からお問い合わせがあり、<br>
+                大変恐縮ですが「お引越し予定日2ヶ月以内」の<br>
+                お客様に制限させて頂いております。
+            </p>
+
+        </div>
+<!-- セクション10ここまで -->
+
+<!-- セクション11ここから -->
+        
+        <div class="section11">
+            <div class="balloon9">
+                <p>なぜほかの不動産会社より安いの？</p>
+            </div>
+            <h2 class="section11-title1">トラベルエステートが<span class="section11-title2">安い4つの理由</span></h2>
+            <div class="section11-white">
+                <div class="section11-content">
+                    <div class="section11-item">
+                        <p class="reason">理由</p>
+                        <p class="number">1</p>
+                    </div>
+                    <img src="img/shop.png" alt="shop">
+                    <h3 class="section11-content-title">店舗コストを削減</h3>
+                    <p class="section11-txt">
+                        他社様のように駅前の人通りが多い路面に面した
+                        好立地で店舗運営したり、各エリアに分散して複数の
+                        店舗を運営する等はせず「店舗は1つだけ」にして
+                        “駅から少し離れた場所”にて営業しているため
+                        店舗コストを削減できています。
+                    </p>
+                </div>
+                <div class="section11-content">
+                    <div class="section11-item">
+                        <p class="reason">理由</p>
+                        <p class="number">2</p>
+                    </div>
+                    <img src="img/car.png" alt="car">
+                    <h3 class="section11-content-title">車代などのコストを削減</h3>
+                    <p class="section11-txt">
+                        社用車は保有していないため維持コストや駐車場代などの
+                        コストを大幅に削減。そのため、徒歩や電車などでも物件の周辺を
+                        一緒に見ながら内見できます。<br>
+                        ※おとり広告などもございません。
+                    </p>
+                </div>
+                <div class="section11-content">
+                    <div class="section11-item">
+                        <p class="reason">理由</p>
+                        <p class="number">3</p>
+                    </div>
+                    <img src="img/itaku.jpg" alt="itaku">
+                    <h3 class="section11-content-title">エージェント8割が業務委託で活動</h3>
+                    <p class="section11-txt">
+                        全員が不動産業界経験者で、大手不動産会社にて
+                        活躍してから独立したりと多種多様なお部屋探しプロが
+                        揃ってます。主体的に行動できる人のみで構成されてる為、
+                        人権費は最小限に抑えられています。
+                    </p>
+                </div>
+                <div class="section11-content">
+                    <div class="section11-item">
+                        <p class="reason">理由</p>
+                        <p class="number">4</p>
+                    </div>
+                    <img src="img/repeat.jpg" alt="repeat">
+                    <h3 class="section11-content-title">ご紹介＆リピート中心で広告費を削減</h3>
+                    <p class="section11-txt">
+                        私たちは1度だけのお付き合いではなく、「一生涯お付き合いできる不動産パートナー」
+                        を目指しています。その為、目先の利益よりお客様にご満足頂いた方がより多くの
+                        ご紹介やリピートを頂けると考えているので他社様よりお安くしています。
+                    </p>
+                </div>
+            </div>
+
+            <div class="section11-orange">
+                <div class="section11-orange-txt">
+                    <span class="section11-orange-txt1">トラベルエステートは</span><br>
+                    <span class="section11-orange-txt2">企業努力でコストカットを徹底している為、</span><br>
+                    <span class="section11-orange-txt1">お客様へ</span>
+                    <span class="section11-orange-txt2">初期費用をお安く提供</span>
+                    <span class="section11-orange-txt1">する事ができます！</span>
+                </div>
+                    <p class="section11-point">なので</p>
+                <div class="section11-orange-item">
+                    <img src="img/man.png" alt="man">
+                    <div class="section11-orange-item-txt">
+                        <span class="section11-orange-txt3">仲介手数料が安くなるからといって</span>
+                        <span class="section11-orange-txt4">
+                            不要な名目で費用請求をするなど<br>
+                            ありません
+                        </span>
+                        <span class="section11-orange-txt3">のでご安心ください！</span>
+                    </div>
+                    <img src="img/woman.png" alt="woman">
+                </div>
+            </div>
+
+            <div class="section11-gray-content">
+                <div class="section11-gray-item">
+                    <h3>なぜ、他社より安くしているのか？</h3>
+                    <div class="section11-gray-item-txt">
+                        <span class="section11-gray-item-txt1">
+                            不動産業界は体質自体が古く、情報がオープン化されてないため必要のない
+                            料金を上乗せ請求したり、自社利益しか考えてない会社が正直多いです。
+                            なので、昔から「怪しい」「ぼったくられそう」といったネガティブなイメージが
+                            染み付いている業界なのだと思います。私たちは、この現状を
+                            <span class="section11-gray-item-txt2">本気で変えていきたいと考えています。</span>
+                        </span><br>
+                        <br>
+                        <span class="section11-gray-item-txt1">
+                            なので、自社に入る報酬を開示して業界のしくみをお伝えしています。
+                            そうする事で、変に隠して実入りの良い物件ばかりを紹介する必要がないので、
+                            本当の意味でお客様の理想をかなえられる物件を
+                            <span class="section11-gray-item-txt2">適正な価格で紹介する事ができています。</span>
+                        </span><br>
+                        <br>
+                        <span class="section11-gray-item-txt1">
+                            そしてお客様に還元できる仕組みにした事で
+                            <span class="section11-gray-item-txt2">
+                                「こんな不動産屋見たことない」と喜んで頂き、これまで多くのお客様から
+                                口コミ・ご紹介を頂いてきました。
+                            </span>
+                            そのおかげで広告費の削減につながり、お客様に還元できるような好循環なシステムが実現できています。
+                        </span><br>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+<!-- セクション11ここまで -->
+
+<!-- セクション12ここから -->
+
+        <div class="section12">
+            <h2 class="section12-title">これがトラベルエステートを<br>
+                利用した<span class="section12-title2">お部屋探し</span>
+            </h2>
+            <h3 class="section12-sub-title">＼他の不動産との違い／</h3>
+            <table>
+                <colgroup span="2" class="table-travelestate1"></colgroup>
+                <colgroup span="1" class="table-travelestate2"></colgroup>
+                <colgroup span="1" class="table-travelestate3"></colgroup>
+                <colgroup span="1" class="table-travelestate4"></colgroup>
+                <tr>
+                    <th></th><th></th><th class="travel">トラベルエステート</th>
+                    <th class="else">他社A（地元の不動産）</th>
+                    <th class="else">他社B（セルフ不動産屋</th>
+                </tr>
+                <tr>
+                    <td rowspan="4">サービス内容</td>
+                    <td>来店</td>
+                    <td><span class="red">◎</span><br>
+                    【どっちも選べる】<br>
+                    オンライン相談・来店相談</td>
+                    <td><span class="green">△</span><br>
+                    店舗に行く必要あり<br>
+                    【毎回】相談/内見/契約</td>
+                    <td><span class="orange">〇</span><br>オンライン相談限定<br>
+                    店舗がない</td>
+                </tr>
+                <tr>
+                    <td>物件選び</td>
+                    <td><span class="red">◎</span><br>
+                    業者専用サイトから<br>
+                    選べる</td>
+                    <td><span class="green">△</span><br>自社利益を優先した<br>
+                    提案ばかり</td>
+                    <td><span class="green">△</span><br>自分で探す必要あり</td>
+                </tr>
+                <tr>
+                    <td>相談</td>
+                    <td><span class="red">◎</span><br>
+                    カウンセリングあり</td>
+                    <td><span class="red">◎</span><br>
+                    カウンセリングあり</td>
+                    <td><span class="green">△</span><br>なし</td>
+                </tr>
+                <tr>
+                    <td>内見</td>
+                    <td><span class="red">◎</span><br>
+                    車で複数件行ける<br>
+                    現地待ち合わせも可能</td>
+                    <td><span class="red">◎</span><br>
+                    車で複数件行ける</td>
+                    <td><span class="orange">〇</span><br>現地待ち合わせ<br>
+                    電車/徒歩移動</td>
+                </tr>
+                <tr>
+                    <td colspan="2">料金</td>
+                    <td><span class="red">◎</span><br>
+                    仲介手数料0円～<br>
+                    家賃1ヶ月分</td>
+                    <td><span class="green">△</span><br>仲介手数料1ヶ月分<br>
+                    オプション（除菌消臭etc）</td>
+                    <td><span class="red">◎</span><br>
+                    仲介手数料0円<br>
+                    （貸主様から報酬入る物件のみ）</td>
+                </tr>
+                <tr>
+                    <td colspan="2">物件数</td>
+                    <td><span class="red">◎</span><br>
+                    ネットに載ってる物件<br>
+                    ほぼ紹介OK</td>
+                    <td><span class="orange">〇</span><br>店舗付近<br>
+                    エリアが限られる＝少ない</td>
+                    <td><span class="orange">〇</span><br>貸主様から報酬入る<br>
+                    物件メイン</td>
+                </tr>
+                <tr>
+                    <td colspan="2">エリア</td>
+                    <td><span class="red">◎</span><br>
+                    全国</td>
+                    <td><span class="orange">〇</span><br>店舗付近<br>
+                    エリアが限られる＝少ない</td>
+                    <td><span class="orange">〇</span><br>一都三県エリア</td>
+                </tr>
+            </table>
+
+            <div class="section12-content">
+                <h2>実際に利用したお客様の声</h2>
+                <img src="img/review1.png" alt="review1">
+                <img src="img/review2.png" alt="review2">
+                <img src="img/review3.png" alt="review3">
+            </div>
+        </div>
+<!-- セクション12ここまで -->
+
+<!-- セクション13ここから -->
+
+        <div class="section13">
+            <h2>トラベルエステートの利用の流れ</h2>
+            <div class="section13-content">
+                <div class="section13-item">
+                    <p class="section13-item-number">1</p>
+                    <img src="img/check.jpg" alt="check">
+                    <p class="section13-item-title">まずはLINEの友達に追加</p>
+                    <p class="section13-item-txt">最初にでてくる「アンケート」へ入力して頂きエージェント相談スタート</p>
+                </div>
+                <div class="section13-item">
+                    <p class="section13-item-number">2</p>
+                    <img src="img/online-ill.jpg" alt="online">
+                    <p class="section13-item-title">お部屋探しの相談をする</p>
+                    <p class="section13-item-txt">オンライン相談or対面での相談か選べます。一緒に業者専用の情報を見ながら物件探しできます。</p>
+                </div>
+                <div class="section13-item">
+                    <p class="section13-item-number">3</p>
+                    <img src="img/naiken.png" alt="naiken">
+                    <p class="section13-item-title">物件の内覧をする</p>
+                    <p class="section13-item-txt">店舗or現地待ち合わせで一緒にお部屋の中を見学。<br>
+                    ★遠方のお客様に限り現地からオンライン中継して内見もできます！</p>
+                </div>
+                <div class="section13-item">
+                    <p class="section13-item-number">4</p>
+                    <img src="img/moushikomi.jpg" alt="moushikomi">
+                    <p class="section13-item-title">入居の申し込みをする</p>
+                    <p class="section13-item-txt">お客様専属のエージェントがしっかりご案内いたします。入居審査にご不安な方や、その他の交渉などもお任せください。</p>
+                </div>
+                <div class="section13-item">
+                    <p class="section13-item-number">5</p>
+                    <img src="img/done.png" alt="done">
+                    <p class="section13-item-title">契約の手続きをする</p>
+                    <p class="section13-item-txt">オンライン通話での契約の説明（IT重説）をいたします。※物件によっては管理会社に来店する必要があります。</p>
+                </div>
+                <div class="section13-item">
+                    <p class="section13-item-number">6</p>
+                    <img src="img/key.png" alt="key">
+                    <p class="section13-item-title">鍵を受け取りご入居</p>
+                    <p class="section13-item-txt">申し込み～ご入居までスピーディーにご対応いたします。ライフラインの面倒なお手続きもお任せください。</p>
+                </div>
+            </div>
+<!-- ボタンここから -->
+            <div class="section13-content2">
+                <p class="line-top">＼LINEは24時間受付対応中／</p>
+                <div class="line-btn">
+                    <a href="https://liff.line.me/1656584077-QM1BDk4k/landing?follow=%40618fvcwy&amp;lp=ZLwgnA&amp;liff_id=1656584077-QM1BDk4k" class="btn">
+                        <div class="line-txt">
+                            <span class="free">無料</span>
+                            <span>LINEでお部屋探しプロに相談</span>
+                        </div>
+                    </a>
+                </div>
+                <p class="tell-top">＼お急ぎの方はお電話ください！／</p>
+                <div class="tell-btn3">
+                    <a href="tel:08008080896" class="btn2">
+                        <p class="tell-text-number"><i class="bi bi-telephone-fill"></i> 080-0808-0896</p>
+                        <p class="tell-text-time">受付時間：10：00～19：00</p>
+                    </a>
+                </div>
+            </div>
+<!-- ボタンここまで -->
+        </div>
+
+<!-- セクション13ここまで -->
+
+<!-- セクション14ここから -->
+        <div class="section14">
+            <h1>よくあるご質問</h1>
+            <div class="line"></div>
+            <div class="qa-list mts">
+                <dl class="qa">
+                    <dt>なぜトラベルエステートは全物件が仲介手数料0円じゃないのですか？</dt>
+                    <dd>
+                        <p>
+                            その理由は、貸主様からの報酬（手数料）が「ある場合」と「ない場合」が
+                            あるためです。都内の物件ですと、アパートやマンションなど含め居住用の物件を
+                            全体的に見て約半分くらいの割合にで「手数料あり」「手数料なし」に別れます。（業者サイト調べ）<br><br>
+                    
+                            そして、私たちはこの手数料のみが収入源のため、全ての物件を仲介手数料０円にしてしまうと赤字になり、<br>
+                            ・貸主様から報酬が入る物件のみ提供<br>
+                            ・別の項目でお客様に費用を請求<br>
+                            といった運営をせざるおえなくなってしまいます...<br>
+                            そうなると、本来選べるはずの物件が半分ほど選べなくなり、
+                            お客様側は”選べる物件が少ない！”となったり...
+                            ”項目が違うだけで払う費用一緒じゃん！”となり...お客様の満足に繋がらないと判断しました。<br><br>
+                        
+                            なので、仲介手数料が０円〜１ヶ月分というサービスにして、お客様が選べる選択肢を増やし、
+                            私たちに入る報酬を開示する事にしました。そうする事で、お客様は「貸主様から報酬がもらえる物件」「もらえない物件」など不動産屋（私たち）の都合関係なく、
+                            全ての物件からお選び頂く事ができ、適正な価格でご契約する事ができます。
+                        </p>
+                    </dd>
+                </dl>
+                <dl class="qa">
+                    <dt>他社が掲載している物件も紹介できる？</dt>
+                    <dd>
+                        <p>
+                            ・SUUMOなどのポータルサイトに掲載されている物件<br>
+                            ・他の不動産屋さんで紹介された物件<br><br>
+                    
+                            URLまたは物件名と住所などをお送りいただければすぐにお調べしますので、
+                            チャットにてお問合せください。<br>
+                            ※物件によっては管理してる不動産会社のみ取扱可能な物件もあるので直接ご相談ください。
+                        </p>
+                    </dd>
+                </dl>
+                <dl class="qa">
+                    <dt>物件数がエリア最大級って本当ですか？</dt>
+                    <dd>
+                        <p>
+                            はい。大手不動産会社と同じ物件データベース（レインズ・ATBB）を使っておりますので、
+                            ご紹介できる物件数は大手不動産会社と変わりません。<br>
+                            正直なお話、どこの不動産会社でも取扱いできる件数に差はなく、ご紹介を「するか」「しないか」の差になります。<br>
+                            当社では、オンライン店舗にする事でエリアで限定する必要性がないため、広範囲でのご紹介ができます。<br>
+                            また、報酬を一律にしており、実入りの良い物件だけ紹介するなどもございませんので、市場（レインズ・ATBB）に出てる
+                            物件はすべてご紹介可能です。<br>
+                            また、おとり物件などもございませんのでご安心下さい。
+                        </p>
+                    </dd>
+                </dl>
+                <dl class="qa">
+                    <dt>どこまで対応してくれますか？利用料金は？</dt>
+                    <dd>
+                        <p>
+                            具体的には<br>
+                            ・カウンセリング相談・条件にマッチングする物件探し<br>
+                            ・物件内覧の手配→現地内覧orオンライン内見<br>
+                            ・入居申し込み/審査のお手配<br>
+                            ・契約書の作成やご説明→IT重説対応・ライフラインのお手配・鍵のお手配→お渡しなどが具体的なサービス内容となります。<br>
+                            そして、これらのサービスをトラベルエステートでは0円～でご提供しています。<br>
+                            ※貸主様から手数料1ヶ月分頂ける物件に限り、0円でご提供！純粋に、「仲介報酬（家賃1ヶ月）」が当社の利益となります。<br>
+                            また、それ以外の諸費用や不必要な名目で手数料を請求したり、オプションや適用条件などもありませんので安心してご利用ください。
+                        </p>
+                    </dd>
+                </dl>
+                <dl class="qa">
+                    <dt>入居の審査が不安なのですが・・・</dt>
+                    <dd>
+                        <p>
+                            大丈夫です！トラベルエステートでは経験豊富なエージェントが多数在籍しておりますので
+                            しっかりご希望の条件で物件がご契約できるようにサポートさせて頂きます。ご安心ください！
+                        </p>
+                    </dd>
+                </dl>
+                <dl class="qa">
+                    <dt>家賃などの値下げ交渉は可能でしょうか？</dt>
+                    <dd>
+                        <p>
+                            もちろんです。お家賃交渉や初期費用の交渉など、お客様のご希望の条件を叶えられるようしっかり頑張ります。
+                        </p>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+<!-- セクション14ここまで -->
+
+<!-- セクション15ここから -->
+
+        <div class="section15">
+            <h2>運営会社</h2>
+            <div class="section15-content">
+                <div class="line2"></div>
+                <h3>会社名</h3>
+                <h4>トラベルエステート株式会社</h4>
+                <div class="line2"></div>
+                <h3>所在地</h3>
+                <h4>〒540-0017 大阪市中央区松屋町住吉5-25</h4>
+                <div class="line2"></div>
+                <h3>電話番号</h3>
+                <h4>06-6796-9685</h4>
+                <div class="line2"></div>
+                <h3>営業時間</h3>
+                <h4>10：00～19：00</h4>
+                <div class="line2"></div>
+                <h3>会社設立</h3>
+                <h4>2016年7月</h4>
+                <div class="line2"></div>
+                <h3>免許番号</h3>
+                <h4>大阪府知事(1)第62822号</h4>
+                <div class="line2"></div>
+                <h3>加盟団体</h3>
+                <h4>公益社団法人全日本不動産協会大阪府本部</h4>
+                <div class="line2"></div>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.038031526224!2d135.51191359999999!3d34.6789896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e7315b26fd3f%3A0xc8ea0ce4ac5cffbb!2z44OI44Op44OZ44Or44Ko44K544OG44O844OI5qCq5byP5Lya56S-!5e0!3m2!1sja!2sjp!4v1706164124439!5m2!1sja!2sjp" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+    </div>
+</body>
+</html>
